@@ -6,6 +6,8 @@ use ApiiOnline\Core\Models\User as ApiiOnlineUser;
 
 php artisan apiionline:user
 
-location / {
-    try_files $uri $uri/ /index.php?$query_string;
-  }
+Xóa trong routes/web.php
+    Route::get('/', function () {
+      return view('welcome');
+    });
+ php artisan optimize:clear
