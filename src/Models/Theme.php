@@ -3,8 +3,8 @@
 namespace ApiiOnline\Core\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
-use Haiau009\CachingModel\Contracts\Cacheable;
-use Haiau009\CachingModel\HasCache;
+use Apiiphim\CachingModel\Contracts\Cacheable;
+use Apiiphim\CachingModel\HasCache;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Artisan;
 use ApiiOnline\Core\Traits\HasFactory;

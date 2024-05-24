@@ -14,7 +14,7 @@ class CreateUser extends Command
      */
     protected $signature = 'apiionline:user
                             {--N|name= : The name of the new user}
-                            {--E|email= : The user\'s email address}
+                            {--E|email= : The user\'s email address v.d: admin@apii.online}
                             {--P|password= : User\'s password}
                             {--encrypt=true : Encrypt user\'s password if it\'s plain text ( true by default )}';
 

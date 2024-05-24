@@ -11,10 +11,10 @@
     "require": {
         "laravel/framework": "^6|^7|^8",
         "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
-        "haiau009/laravel-caching-model": "^1.0.0",
-        "haiau009/crud": "^1.0.0",
-        "haiau009/settings": "^1.0.0",
-        "haiau009/permissionmanager": "^1.0.0",
+        "apiiphim/laravel-caching-model": "v1.0.0",
+        "apiiphim/crud": "v1.0.0",
+        "apiiphim/settings": "v1.0.0",
+        "apiiphim/permissionmanager": "v1.0.0",
         "spatie/laravel-sitemap": "^5.8",
         "artesaos/seotools": "^v0.22.1"
     },

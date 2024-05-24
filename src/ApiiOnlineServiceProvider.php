@@ -111,8 +111,8 @@ class ApiiOnlineServiceProvider extends ServiceProvider
     protected function publishFiles()
     {
         $backpack_menu_contents_view = [
-            __DIR__ . '/../resources/views/core/base/'  => resource_path('views/vendor/haiau009/base/'),
-            __DIR__ . '/../resources/views/core/crud/'      => resource_path('views/vendor/haiau009/crud/'),
+            __DIR__ . '/../resources/views/core/base/'  => resource_path('views/vendor/apiiphim/base/'),
+            __DIR__ . '/../resources/views/core/crud/'      => resource_path('views/vendor/apiiphim/crud/'),
         ];
 
         $players = [
@@ -144,10 +144,10 @@ class ApiiOnlineServiceProvider extends ServiceProvider
             \Backpack\CRUD\app\Http\Middleware\UseBackpackAuthGuardInsteadOfDefaultAuthGuard::class,
         ])]);
 
-        config(['cachebusting_string' => \PackageVersions\Versions::getVersion('haiau009/crud')]);
+        config(['cachebusting_string' => \PackageVersions\Versions::getVersion('apiiphim/crud')]);
 
         config(['backpack.base.project_logo' => '<b>ApiiOnline</b>CMS']);
-        config(['backpack.base.developer_name' => 'haiau009']);
+        config(['backpack.base.developer_name' => 'apiiphim']);
         config(['backpack.base.developer_link' => 'mailto:admin@apiionline.com']);
         config(['backpack.base.show_powered_by' => false]);
     }
